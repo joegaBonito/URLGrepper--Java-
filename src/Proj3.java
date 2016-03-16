@@ -21,7 +21,7 @@
  * blanks.  This change doesn't appear in the current file, since it's
  * an implementation detail in the URLGrepper class.
  *
- * Author: A. G. Werschulz
+ * Author: Yoonjae Jung
  * Date:   29 February 2016
  *
  **********************************************************************/
