@@ -106,13 +106,11 @@ public class URLGrepper {
 					else 
 						urlRegex = "(?i)href\\s*=\\s*(\"([^\"]*\")|'[^']*'|"
 							+"([^'\">\\s]+))";
-					Pattern pattern = Pattern.compile(urlRegex,
-																 Pattern.CASE_INSENSITIVE);
+					Pattern pattern = Pattern.compile(urlRegex, Pattern.CASE_INSENSITIVE);
 					Matcher urlMatcher = pattern.matcher(inputLine);
 					while (urlMatcher.find())
 	        		{
-	        			urls.add(inputLine.substring(urlMatcher.start(0),
-															  urlMatcher.end(0)));
+	        			urls.add(inputLine.substring(urlMatcher.start(0), urlMatcher.end(0)));
 	        		}
 				}
 			}
