@@ -1,2 +1,2 @@
 # URLGrepper--Java-
-This Program gets all URL addresses on a website 
+This Program gets all URL addresses of a website 
